@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="me_tab">
+        <item>笔记</item>
+        <item>收藏</item>
+        <item>赞过</item>
+    </string-array>
+</resources>

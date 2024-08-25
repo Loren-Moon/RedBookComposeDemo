@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_tab">
+        <item>关注</item>
+        <item>发现</item>
+        <item>广州</item>
+    </string-array>
+    <string-array name="home_find_tab">
+        <item>推荐</item>
+        <item>视频</item>
+        <item>直播</item>
+        <item>旅行</item>
+        <item>穿搭</item>
+        <item>摄影</item>
+        <item>美食</item>
+        <item>搞笑</item>
+        <item>游戏</item>
+        <item>科技数码</item>
+        <item>音乐</item>
+        <item>潮玩手办</item>
+    </string-array>
+</resources>

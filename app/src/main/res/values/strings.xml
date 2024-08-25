@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RedBookDemo</string>
+    <string name="loading">Loading...</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_confirm">确认</string>
+    <string-array name="setting_theme_desc">
+        <item>跟随系统</item>
+        <item>浅色主题</item>
+        <item>深色主题</item>
+    </string-array>
+    <string name="title_home">Home</string>
+</resources>

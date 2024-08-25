@@ -1,0 +1,78 @@
+[versions]
+compileSdk = "34"
+minSdk = "26"
+coreKtx = "1.10.1"
+androidGradlePlugin = "8.2.1"
+kotlinCompilerExtensionVersion = "1.5.8"
+kotlin = "1.9.22"
+ksp = "1.9.22-1.0.18"
+hilt = "2.51"
+accompanist = "0.34.0"
+androidxActivity = "1.8.0"
+androidxCore = "1.12.0"
+androidxLifecycle = "2.7.0"
+androidxComposeBom = "2024.06.00"
+androidxHiltNavigationCompose = "1.2.0"
+androidxNavigationCompose = "2.7.7"
+androidxDataStore = "1.0.0"
+junit4 = "4.13.2"
+androidxTestExt = "1.1.5"
+androidxEspresso = "3.5.1"
+androidxCoreSplashscreen = "1.0.1"
+appcompat = "1.6.1"
+material = "1.9.0"
+coilCompose = "2.6.0"
+paging3 = "3.3.0"
+constraintlayout = "2.1.4"
+gson = "2.11.0"
+androidxAnimate = "1.7.0-beta07"
+
+[libraries]
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
+androidx-compose-ui-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-ui-test = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-testManifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivity" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidxCoreSplashscreen" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHiltNavigationCompose" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigationCompose" }
+androidx-lifecycle-runtimeKtx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidxLifecycle" }
+androidx-lifecycle-runtimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycle" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+junit4 = { group = "junit", name = "junit", version.ref = "junit4" }
+android-test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExt" }
+androidx-test-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
+androidx-datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidxDataStore" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "paging3" }
+
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+androidx-animation = { group = "androidx.compose.animation", name = "animation", version.ref = "androidxAnimate" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
+redBook-android-application = { id = "redBook.android.application", version = "unspecified" }
+redBook-android-library = { id = "redBook.android.library", version = "unspecified" }
+redBook-android-hilt = { id = "redBook.android.hilt", version = "unspecified" }
+redBook-android-application-compose = { id = "redBook.android.application.compose", version = "unspecified" }
+redBook-android-library-compose = { id = "redBook.android.library.compose", version = "unspecified" }
+redBook-android-test = { id = "redBook.android.test", version = "unspecified" }
+redBook-android-feature = { id = "redBook.android.feature", version = "unspecified" }
